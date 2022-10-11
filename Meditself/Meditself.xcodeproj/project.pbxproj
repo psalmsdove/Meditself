@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430F9AE128F5E58600C8C897 /* meditation1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 430F9AE028F5E58600C8C897 /* meditation1.mp3 */; };
+		430F9AE728F6017000C8C897 /* MorningPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430F9AE628F6017000C8C897 /* MorningPlayView.swift */; };
+		430F9AE928F603E700C8C897 /* medmusic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 430F9AE828F603E700C8C897 /* medmusic2.mp3 */; };
+		433C138828F5AED1004B0C20 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C138728F5AED1004B0C20 /* Extensions.swift */; };
+		433C138A28F5B557004B0C20 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C138928F5B557004B0C20 /* AudioManager.swift */; };
+		436B96CE28F626FC00F03BEC /* EveningPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B96CD28F626FC00F03BEC /* EveningPlayView.swift */; };
+		43723EBE28F5958C00C23497 /* MeditselfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43723EBD28F5958C00C23497 /* MeditselfApp.swift */; };
+		43723EC028F5958C00C23497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43723EBF28F5958C00C23497 /* ContentView.swift */; };
+		43723EC228F5958D00C23497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43723EC128F5958D00C23497 /* Assets.xcassets */; };
+		43723EC528F5958D00C23497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43723EC428F5958D00C23497 /* Preview Assets.xcassets */; };
+		43723ECC28F5961100C23497 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43723ECB28F5961100C23497 /* MeditationView.swift */; };
+		43723ECE28F5996300C23497 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43723ECD28F5996300C23497 /* PlayerView.swift */; };
+		43723ED028F59BE600C23497 /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43723ECF28F59BE600C23497 /* PlaybackControlButton.swift */; };
+		4377A2B928F628F300EEAA3F /* medmusic3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4377A2B828F628F300EEAA3F /* medmusic3.mp3 */; };
+		4377A2BB28F628FB00EEAA3F /* medmusic4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4377A2BA28F628FB00EEAA3F /* medmusic4.mp3 */; };
+		4377A2BF28F62A6A00EEAA3F /* LovePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4377A2BE28F62A6A00EEAA3F /* LovePlayView.swift */; };
+		4377A2C128F62ACB00EEAA3F /* BreathPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4377A2C028F62ACB00EEAA3F /* BreathPlayView.swift */; };
+		43F99E1F28F5A8E900EB6D35 /* MedidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F99E1E28F5A8E900EB6D35 /* MedidationViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430F9AE028F5E58600C8C897 /* meditation1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation1.mp3; sourceTree = "<group>"; };
+		430F9AE628F6017000C8C897 /* MorningPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningPlayView.swift; sourceTree = "<group>"; };
+		430F9AE828F603E700C8C897 /* medmusic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medmusic2.mp3; sourceTree = "<group>"; };
+		4330C3C428F5BAEE00DE43BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		433C138728F5AED1004B0C20 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		433C138928F5B557004B0C20 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		436B96CD28F626FC00F03BEC /* EveningPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningPlayView.swift; sourceTree = "<group>"; };
+		43723EBA28F5958C00C23497 /* Meditself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditself.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43723EBD28F5958C00C23497 /* MeditselfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditselfApp.swift; sourceTree = "<group>"; };
+		43723EBF28F5958C00C23497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43723EC128F5958D00C23497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43723EC428F5958D00C23497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43723ECB28F5961100C23497 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		43723ECD28F5996300C23497 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		43723ECF28F59BE600C23497 /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		4377A2B828F628F300EEAA3F /* medmusic3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medmusic3.mp3; sourceTree = "<group>"; };
+		4377A2BA28F628FB00EEAA3F /* medmusic4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medmusic4.mp3; sourceTree = "<group>"; };
+		4377A2BE28F62A6A00EEAA3F /* LovePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovePlayView.swift; sourceTree = "<group>"; };
+		4377A2C028F62ACB00EEAA3F /* BreathPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPlayView.swift; sourceTree = "<group>"; };
+		43F99E1E28F5A8E900EB6D35 /* MedidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedidationViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43723EB728F5958C00C23497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43723EB128F5958C00C23497 = {
+			isa = PBXGroup;
+			children = (
+				43723EBC28F5958C00C23497 /* Meditself */,
+				43723EBB28F5958C00C23497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43723EBB28F5958C00C23497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43723EBA28F5958C00C23497 /* Meditself.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43723EBC28F5958C00C23497 /* Meditself */ = {
+			isa = PBXGroup;
+			children = (
+				4330C3C428F5BAEE00DE43BD /* Info.plist */,
+				43723EBD28F5958C00C23497 /* MeditselfApp.swift */,
+				43723EBF28F5958C00C23497 /* ContentView.swift */,
+				43723ECB28F5961100C23497 /* MeditationView.swift */,
+				43723ECD28F5996300C23497 /* PlayerView.swift */,
+				43723ECF28F59BE600C23497 /* PlaybackControlButton.swift */,
+				43F99E1E28F5A8E900EB6D35 /* MedidationViewModel.swift */,
+				433C138728F5AED1004B0C20 /* Extensions.swift */,
+				433C138928F5B557004B0C20 /* AudioManager.swift */,
+				430F9AE628F6017000C8C897 /* MorningPlayView.swift */,
+				436B96CD28F626FC00F03BEC /* EveningPlayView.swift */,
+				4377A2BE28F62A6A00EEAA3F /* LovePlayView.swift */,
+				4377A2C028F62ACB00EEAA3F /* BreathPlayView.swift */,
+				43723EC128F5958D00C23497 /* Assets.xcassets */,
+				430F9AE028F5E58600C8C897 /* meditation1.mp3 */,
+				43723EC328F5958D00C23497 /* Preview Content */,
+			);
+			path = Meditself;
+			sourceTree = "<group>";
+		};
+		43723EC328F5958D00C23497 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4377A2BA28F628FB00EEAA3F /* medmusic4.mp3 */,
+				4377A2B828F628F300EEAA3F /* medmusic3.mp3 */,
+				430F9AE828F603E700C8C897 /* medmusic2.mp3 */,
+				43723EC428F5958D00C23497 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43723EB928F5958C00C23497 /* Meditself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43723EC828F5958D00C23497 /* Build configuration list for PBXNativeTarget "Meditself" */;
+			buildPhases = (
+				43723EB628F5958C00C23497 /* Sources */,
+				43723EB728F5958C00C23497 /* Frameworks */,
+				43723EB828F5958C00C23497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meditself;
+			productName = Meditself;
+			productReference = 43723EBA28F5958C00C23497 /* Meditself.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43723EB228F5958C00C23497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					43723EB928F5958C00C23497 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 43723EB528F5958C00C23497 /* Build configuration list for PBXProject "Meditself" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43723EB128F5958C00C23497;
+			productRefGroup = 43723EBB28F5958C00C23497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43723EB928F5958C00C23497 /* Meditself */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43723EB828F5958C00C23497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4377A2B928F628F300EEAA3F /* medmusic3.mp3 in Resources */,
+				430F9AE928F603E700C8C897 /* medmusic2.mp3 in Resources */,
+				430F9AE128F5E58600C8C897 /* meditation1.mp3 in Resources */,
+				43723EC528F5958D00C23497 /* Preview Assets.xcassets in Resources */,
+				4377A2BB28F628FB00EEAA3F /* medmusic4.mp3 in Resources */,
+				43723EC228F5958D00C23497 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43723EB628F5958C00C23497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430F9AE728F6017000C8C897 /* MorningPlayView.swift in Sources */,
+				43723EC028F5958C00C23497 /* ContentView.swift in Sources */,
+				4377A2C128F62ACB00EEAA3F /* BreathPlayView.swift in Sources */,
+				4377A2BF28F62A6A00EEAA3F /* LovePlayView.swift in Sources */,
+				43723ECC28F5961100C23497 /* MeditationView.swift in Sources */,
+				433C138A28F5B557004B0C20 /* AudioManager.swift in Sources */,
+				43F99E1F28F5A8E900EB6D35 /* MedidationViewModel.swift in Sources */,
+				43723ED028F59BE600C23497 /* PlaybackControlButton.swift in Sources */,
+				43723EBE28F5958C00C23497 /* MeditselfApp.swift in Sources */,
+				436B96CE28F626FC00F03BEC /* EveningPlayView.swift in Sources */,
+				43723ECE28F5996300C23497 /* PlayerView.swift in Sources */,
+				433C138828F5AED1004B0C20 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43723EC628F5958D00C23497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43723EC728F5958D00C23497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43723EC928F5958D00C23497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meditself/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R7LYM727C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditself/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.Meditself";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43723ECA28F5958D00C23497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meditself/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R7LYM727C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditself/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.Meditself";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43723EB528F5958C00C23497 /* Build configuration list for PBXProject "Meditself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43723EC628F5958D00C23497 /* Debug */,
+				43723EC728F5958D00C23497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43723EC828F5958D00C23497 /* Build configuration list for PBXNativeTarget "Meditself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43723EC928F5958D00C23497 /* Debug */,
+				43723ECA28F5958D00C23497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43723EB228F5958C00C23497 /* Project object */;
+}
