@@ -25,16 +25,13 @@ struct MeditationView: View {
                 .scaledToFill()
                 .frame(height: UIScreen.main.bounds.height / 3)
             
-
-            
             // MARK: Meditation Details
             
             ZStack {
+                
                 // MARK: Background
-                
-                
-                
-                Color(red: 24/255, green: 23/255, blue: 22/255)
+
+                Color(red: 239/255, green: 208/255, blue: 202/255)
                 
                 VStack(alignment: .leading, spacing: 12) {
                     // MARK: Type & Duration
@@ -45,7 +42,15 @@ struct MeditationView: View {
                             .padding(.trailing, 90.0)
                             .fontWeight(.heavy)
                             .font(.system(size: 40))
-                            .foregroundColor(.white)
+                            .foregroundColor(.black)
+                        
+                        Spacer()
+                        
+                        Text("Ready to start your routine?")
+                            .font(.system(size: 20))
+                            .foregroundColor(.black)
+                            .padding(.bottom, 80.0)
+                            .frame(height: 20)
                         
                         Spacer()
 
