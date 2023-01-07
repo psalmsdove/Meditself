@@ -1,6 +1,9 @@
 # Meditself
 meditation app to relax and let stress go out of your body.
 
+<img width="419" alt="Ekran Resmi 2023-01-07 23 16 31" src="https://user-images.githubusercontent.com/48603868/211168880-dec53a85-c6fe-43e6-bea1-d151567dd781.png">
+
+
 ---
 
 you can choose from different (5 for now) meditations and directly start meditating!
